@@ -43,7 +43,7 @@ export default {
     height: 70px;
     max-width: 1200px;
     width: 98%;
-    color: white;
+    color: $top-bottom-menu;
     display: flex;
     justify-content: space-between;
     align-items: center;

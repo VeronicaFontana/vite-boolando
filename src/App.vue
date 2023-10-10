@@ -14,8 +14,8 @@ export default {
 </script>
 
 <template>
-  <Header />,
-  <Main />,
+  <Header />
+  <Main />
   <Footer />
 </template>
 
