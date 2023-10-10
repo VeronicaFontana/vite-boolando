@@ -5,7 +5,8 @@ export default {
 </script>
 
 <template>
-  <section class="container">
+  <Main>
+    <section class="container">
       <div class="card">
         <div class="image-box">
           <img class="first-img" src="../assets/img/1.webp" alt="">
@@ -107,6 +108,7 @@ export default {
         </div>
       </div>
     </section>
+  </main>
 </template>
 
 <style lang="scss">
@@ -160,6 +162,26 @@ export default {
         &:hover{
           color: $heart-hover;
           cursor: pointer;
+        }
+      }
+
+      .text-box{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9em;
+
+        .price, .brand{
+          font-size: 0.8em;
+        }
+
+        .price{
+          .new-price{
+            color: $new-price;
+          }
+          .old-price{
+            text-decoration: line-through;
+          }
         }
       }
     }
