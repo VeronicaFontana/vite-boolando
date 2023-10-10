@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <Footer>
+  <footer>
     <section class="bottom-bar">
       <div class="bottom-menu">
         <div class="legal-info">
@@ -28,7 +28,7 @@ export default {
         </div>
       </div>
     </section>
-  </Footer>
+  </footer>
 </template>
 
 <style lang="scss">

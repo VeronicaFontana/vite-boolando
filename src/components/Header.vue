@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <Header>
+  <header>
     <section class="top-bar">
       <div class="top-menu">
         <ul class="category">
@@ -23,7 +23,7 @@ export default {
         </ul>
       </div>
     </section>
-  </Header>
+  </header>
 </template>
 
 <style lang="scss">
@@ -62,6 +62,5 @@ export default {
     }
   }
 }
-
 
 </style>

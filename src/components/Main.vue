@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <Main>
+  <main>
     <section class="container">
       <div class="card">
         <div class="image-box">
