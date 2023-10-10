@@ -111,7 +111,7 @@ export default {
   </main>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use "../scss/partials/colors" as *;
 
 .container{

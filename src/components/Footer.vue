@@ -31,27 +31,55 @@ export default {
   </footer>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use "../scss/partials/colors" as *;
+@use "../scss/partials/general" as *;
 
 .bottom-bar{
   background-color: $bottom-bar-bg;
   display: flex;
   justify-content: center;
+  .bottom-menu{
+    height: 70px;
+    max-width: 1200px;
+    width: 98%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  .legal-info{
-    span{
-      font-weight: bold;
+    .legal-info{
+      span{
+        font-weight: bold;
+      }
+      ul{
+        font-size: 0.8em;
+        li{
+          display: inline-block;
+          list-style: none;
+          padding: 5px 3px 0 0;
+        }
+      }
     }
-    ul{
-      font-size: 0.8em;
+    .social{
+      span{
+        font-size: 0.7em;
+      }
+      ul{
+        font-size: 0.8em;
+        li{
+          display: inline-block;
+          list-style: none;
+          padding: 5px 3px 0 0;
+
+          i{
+            color: white ;
+          }
+        }
+      }
     }
   }
-  .social{
-    span{
-      font-size: 0.7em;
-    }
-  }
+  
 }
 
 </style>
