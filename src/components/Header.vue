@@ -50,6 +50,11 @@ export default {
 
     ul {
       font-weight: bold;
+      li{
+        display: inline-block;
+        list-style: none;
+        padding: 5px 3px 0 0;
+      }
     }
     img{
       height: 30px;
