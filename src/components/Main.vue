@@ -164,24 +164,24 @@ export default {
           cursor: pointer;
         }
       }
+    }
+    .text-box{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      font-size: 0.9em;
 
-      .text-box{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        font-size: 0.9em;
+      .brand{
+        font-size: 0.8em;
+      }
 
-        .price, .brand{
-          font-size: 0.8em;
+      .price{
+        font-size: 0.8em;
+        .new-price{
+          color: $new-price;
         }
-
-        .price{
-          .new-price{
-            color: $new-price;
-          }
-          .old-price{
-            text-decoration: line-through;
-          }
+        .old-price{
+          text-decoration: line-through;
         }
       }
     }
