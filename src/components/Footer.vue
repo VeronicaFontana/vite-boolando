@@ -63,7 +63,7 @@ export default {
     }
     .social{
       span{
-        font-size: 0.7em;
+        font-size: 0.8em;
       }
       ul{
         font-size: 0.8em;
@@ -74,6 +74,10 @@ export default {
 
           i{
             color: white ;
+            font-size: 1.2rem;
+            &:hover{
+              cursor: pointer;
+            }
           }
         }
       }

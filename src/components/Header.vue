@@ -54,6 +54,11 @@ export default {
         display: inline-block;
         list-style: none;
         padding: 5px 3px 0 0;
+        margin: 0 5px;
+        &:hover{
+          text-decoration: underline;
+          cursor: pointer;
+        }
       }
     }
     img{

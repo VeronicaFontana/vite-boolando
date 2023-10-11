@@ -146,10 +146,20 @@ export default {
       .discount{
         background-color: $discount-bg;
         left: 0;
+        color: white;
+        position: absolute;
+        padding: 5px;
+        bottom: 70px;
+        font-size: 0.7em;
       }
       .sustain{
         background-color: $sustain-bg;
         left: 40px;
+        color: white;
+        position: absolute;
+        padding: 5px;
+        bottom: 70px;
+        font-size: 0.7em;
       }
       .heart{
         background-color: white;
@@ -170,15 +180,18 @@ export default {
       display: flex;
       flex-direction: column;
       font-size: 0.9em;
+      padding-top: 5px;
 
       .brand{
-        font-size: 0.8em;
+        font-size: 1em;
+        font-weight: bold;
       }
 
       .price{
         font-size: 0.8em;
         .new-price{
           color: $new-price;
+          margin-right: 8px;
         }
         .old-price{
           text-decoration: line-through;
